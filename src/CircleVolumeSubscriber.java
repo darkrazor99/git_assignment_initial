@@ -1,5 +1,5 @@
 
-public class CircleVolume implements ISubscriber {
+public class CircleVolumeSubscriber implements ISubscriber {
 	@Override
 	public void notifySubscriber(String input) {
 		// TODO Auto-generated method stub
