@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Main {
-	private static ISubscriber subscribers [] = {
+	private static ISubscriber subscribers [] = }
 			new LucasSeries(),
-			new SphereVolume(),
+			new SphereVolume()
 	};
 	
 	public static void main(String[] args) {
