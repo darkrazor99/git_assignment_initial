@@ -7,11 +7,9 @@ public class MultiplicationSeriesSubscriber implements ISubscriber {
 		
 	}
 	public int getMultibS(int n) {
-		int sum = 0;
-		for (int i = 1; i <= n; i++) {
-			sum+= n*i;
-		}
-		return sum;
+		if(n==1) return 1;
+		else if(n==0)return 1;
+		else return n*getMultibS(n-1);
 	}
 
 }
