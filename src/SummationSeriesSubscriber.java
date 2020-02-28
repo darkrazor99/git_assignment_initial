@@ -10,7 +10,7 @@ public class SummationSeriesSubscriber implements ISubscriber {
         for (int i=in ; i>0 ;i--){
             sum+=i;
         }
-        System.out.println("Hello, I am a SummationSeriesSubscriber and I am notified with " + sum);
+        System.out.println("SummationSeries : " + sum);
     }
 
 }

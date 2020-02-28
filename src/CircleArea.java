@@ -4,7 +4,7 @@ public class CircleArea implements ISubscriber {
     public void notifySubscriber(String input) {
 
         double Area =  Math.PI*Double.valueOf(input)*Double.valueOf(input);
-        System.out.println("Hello, I am a Esraa subscriber and I am notified with Circle Radius :  " + Area );
+        System.out.println("Circle Area :  " + Area );
 
     }
 }

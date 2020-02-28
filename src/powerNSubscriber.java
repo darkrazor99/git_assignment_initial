@@ -5,7 +5,7 @@ public class powerNSubscriber implements ISubscriber {
 	public void notifySubscriber(String input) {
 		// TODO Auto-generated method stub
 		int x = Integer.parseInt(input);
-		System.out.println("2PowerN: " + Pow(x) );
+		System.out.println("2PowerN : " + Pow(x) );
 	}
 	int Pow (int n) {
 		if (n==0)

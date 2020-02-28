@@ -1,9 +1,14 @@
 import java.util.Scanner;
 
 public class Main {
-	private static ISubscriber subscribers [] = }
+	private static ISubscriber subscribers [] = {
 			new LucasSeries(),
-			new SphereVolume()
+			new SphereVolume(),
+			new CircleArea(),
+			new CircleVolumeSubscriber(),
+			new powerNSubscriber(),
+			new SphereArea(),
+			new SummationSeriesSubscriber()
 	};
 	
 	public static void main(String[] args) {
@@ -22,7 +27,7 @@ public class Main {
 			if( c > 0 && c < 11) {
 				System.out.print("Enter Your Number :");
 				String input = sc.nextLine();
-				mathTopic.dispatchEvent(input,0);
+				mathTopic.dispatchEvent(input,c-1);
 			}
 			else if(c == 11) {
 				System.out.print("Enter Your Number :");

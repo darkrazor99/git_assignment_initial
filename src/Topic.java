@@ -23,7 +23,8 @@ public class Topic {
 	
 	public void menu() {
 		System.out.println("\nChoose operation you want :");
-		System.out.println("1-Lucas Series\n2-Sphere Volume\n3-\n4-\n5-\n6-\n7-\n8-\n9-\n10-");
+		System.out.println("1-Lucas Series\n2-Sphere Volume\n3-Circle Area\n4-Circle Volume\n5-Power N\n6-Sphere Area"
+				+ "\n7-Summation Series\n8-\n9-\n10-");
 		System.out.println("11-Execute All\n");
 	}
 	
