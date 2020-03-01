@@ -1,15 +1,18 @@
+import java.math.BigDecimal;
 
 public class MultiplicationSeriesSubscriber implements ISubscriber {
 	@Override
 	public void notifySubscriber(String input) {
-		
-		System.out.println("MultiplicationSeries : " + getMultibS(Integer.parseInt(input)));
+		BigDecimal n=new BigDecimal(input);
+		System.out.println("MultiplicationSeries : " + getMultibS(n));
 		
 	}
-	public int getMultibS(int n) {
-		if(n==1) return 1;
-		else if(n==0)return 1;
-		else return n*getMultibS(n-1);
+	public  BigDecimal getMultibS(BigDecimal n) {
+		BigDecimal one=new BigDecimal("1");
+		BigDecimal zero=new BigDecimal("0");
+		if(n.equals(one)) return one;
+		else if(n.equals(zero))return one;
+		else return n.multiply(getMultibS(n.subtract(one)));
 	}
 
 }
