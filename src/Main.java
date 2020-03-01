@@ -5,7 +5,7 @@ public class Main {
 			new LucasSeries(),
 			new SphereVolume(),
 			new CircleArea(),
-			new CircleVolumeSubscriber(),
+			new BallVolumeSubscriber(),
 			new powerNSubscriber(),
 			new SphereArea(),
 			new SummationSeriesSubscriber(),
