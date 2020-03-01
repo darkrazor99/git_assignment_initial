@@ -6,11 +6,8 @@ public class SummationSeriesSubscriber implements ISubscriber {
     public void notifySubscriber(String input) {
         // TODO Auto-generated method stub
         int in=Integer.parseInt(input);
-        int sum=0;
-        for (int i=in ; i>0 ;i--){
-            sum+=i;
-        }
-        System.out.println("Hello, I am a SummationSeriesSubscriber and I am notified with " + sum);
+        int result=(in*(in+1))/2;
+        System.out.println("Hello, I am a SummationSeriesSubscriber and I am notified with " + result);
     }
 
 }
