@@ -1,7 +1,8 @@
 # git assignment
 
-Software Engineering 2 Assignment that helps students to increase team working skills, increase 
-version control system knowledge and practice on software design patterns.
+Software Engineering 2 Assignment that helps students to increase
+team working skills, increase version control system knowledge 
+and practice on software design patterns.
 
 # Team Members Status
 
