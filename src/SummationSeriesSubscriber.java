@@ -7,7 +7,7 @@ public class SummationSeriesSubscriber implements ISubscriber {
         // TODO Auto-generated method stub
         int in=Integer.parseInt(input);
         int result=(in*(in+1))/2;
-        System.out.println("Hello, I am a SummationSeriesSubscriber and I am notified with " + result);
+        System.out.println("SummationSeries : " + result);
     }
 
 }
