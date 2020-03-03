@@ -28,12 +28,12 @@ public class Main {
 			String choose = sc.nextLine();
 			int c = Integer.parseInt(choose);
 			
-			if( c > 0 && c < 11) {
+			if( c > 0 && c <= 11) {
 				System.out.print("Enter Your Number :");
 				String input = sc.nextLine();
 				mathTopic.dispatchEvent(input,c-1);
 			}
-			else if(c == 13) {
+			else if(c == 12) {
 				System.out.print("Enter Your Number :");
 				String input = sc.nextLine();
 				mathTopic.dispatchEvents(input);

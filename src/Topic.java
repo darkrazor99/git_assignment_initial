@@ -25,7 +25,7 @@ public class Topic {
 		System.out.println("\nChoose operation you want :");
 		System.out.println("1-Lucas Series\n2-Sphere Volume\n3-Circle Area\n4-Ball Volume\n5-Power N\n6-Sphere Area"
 				+ "\n7-Summation Series\n8-circleCircumferenc\n9-Fibonacci\n10-Fibonacci\n11-SphereCircumference");
-		System.out.println("13-Execute All\nAny other input to close\n");
+		System.out.println("12-Execute All\nAny other input to close\n");
 	}
 	
 	public void dispatchEvent(String input,int index) {
