@@ -4,6 +4,15 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 			new LucasSeries(),
 			new SphereVolume(),
+			new CircleArea(),
+			new BallVolumeSubscriber(),
+			new powerNSubscriber(),
+			new SphereArea(),
+			new SummationSeriesSubscriber(),
+			new circleCircumference(),
+			new FibonacciSubscriber(),
+			new MultiplicationSeriesSubscriber(),
+			new SphereCircumference()
 	};
 	
 	public static void main(String[] args) {
@@ -19,12 +28,12 @@ public class Main {
 			String choose = sc.nextLine();
 			int c = Integer.parseInt(choose);
 			
-			if( c > 0 && c < 11) {
+			if( c > 0 && c <= 11) {
 				System.out.print("Enter Your Number :");
 				String input = sc.nextLine();
-				mathTopic.dispatchEvent(input,0);
+				mathTopic.dispatchEvent(input,c-1);
 			}
-			else if(c == 11) {
+			else if(c == 12) {
 				System.out.print("Enter Your Number :");
 				String input = sc.nextLine();
 				mathTopic.dispatchEvents(input);
